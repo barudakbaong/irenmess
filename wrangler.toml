@@ -7,18 +7,18 @@ workers_dev = true
 
 routes = [
 
-  { pattern = "siren.uk81.biz.id", custom_domain = true },
-  { pattern = "support.zoom.us.siren.uk81.biz.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.siren.uk81.biz.id", custom_domain = true },
-  { pattern = "graph.instagram.com.siren.uk81.biz.id", custom_domain = true },
-  { pattern = "df.game.naver.com.siren.uk81.biz.id", custom_domain = true },
-  { pattern = "investor.fb.com.siren.uk81.biz.id", custom_domain = true },
-  { pattern = "zoomgov.com.siren.uk81.biz.id", custom_domain = true }
+  { pattern = "siren.uk81.my.id", custom_domain = true },
+  { pattern = "support.zoom.us.siren.uk81.my.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.siren.uk81.my.id", custom_domain = true },
+  { pattern = "graph.instagram.com.siren.uk81.my.id", custom_domain = true },
+  { pattern = "df.game.naver.com.siren.uk81.my.id", custom_domain = true },
+  { pattern = "investor.fb.com.siren.uk81.my.id", custom_domain = true },
+  { pattern = "zoomgov.com.siren.uk81.my.id", custom_domain = true }
   ]
 
 [[kv_namespaces]]
 binding = "SIREN"
-id = "c5109768f8b145509fc0818a682d496c"
+id = "816e264fa5df48b0b4f7623840e361fb"
 
 [build]
 command = "cargo install -q worker-build && worker-build --release"
@@ -28,7 +28,7 @@ build = { command = "cargo install -q worker-build && worker-build --dev" }
 
 [vars]
 UUID = "bbff1096-1b2b-4953-89fc-380db3854af8"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/ujangkasep2504/sirenujangkasep/refs/heads/master/web/index.html"
-SUB_PAGE_URL = "https://raw.githubusercontent.com/ujangkasep2504/sirenujangkasep/refs/heads/master/web/sub.html"
-LINK_PAGE_URL = "https://raw.githubusercontent.com/ujangkasep2504/sirenujangkasep/refs/heads/master/web/link.html"
-CONVERTER_PAGE_URL = "https://raw.githubusercontent.com/ujangkasep2504/sirenujangkasep/refs/heads/master/web/converter.html"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/barudakbaong/irenmess/refs/heads/master/web/index.html"
+SUB_PAGE_URL = "https://raw.githubusercontent.com/barudakbaong/irenmess/refs/heads/master/web/sub.html"
+LINK_PAGE_URL = "https://raw.githubusercontent.com/barudakbaong/irenmess/refs/heads/master/web/link.html"
+CONVERTER_PAGE_URL = "https://raw.githubusercontent.com/barudakbaong/irenmess/refs/heads/master/web/converter.html"
