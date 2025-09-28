@@ -7,14 +7,23 @@ workers_dev = true
 
 routes = [
 
-  { pattern = "siren.uk81.my.id", custom_domain = true },
-  { pattern = "support.zoom.us.siren.uk81.my.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.siren.uk81.my.id", custom_domain = true },
-  { pattern = "graph.instagram.com.siren.uk81.my.id", custom_domain = true },
-  { pattern = "df.game.naver.com.siren.uk81.my.id", custom_domain = true },
-  { pattern = "investor.fb.com.siren.uk81.my.id", custom_domain = true },
-  { pattern = "zoomgov.com.siren.uk81.my.id", custom_domain = true }
-  ]
+  { pattern = "uk81.my.id", custom_domain = true },
+  { pattern = "support.zoom.us.uk81.my.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.uk81.my.id", custom_domain = true },
+  { pattern = "graph.instagram.com.uk81.my.id", custom_domain = true },
+  { pattern = "df.game.naver.com.uk81.my.id", custom_domain = true },
+  { pattern = "quiz.int.vidio.com.uk81.my.id", custom_domain = true },
+  { pattern = "zoomgov.com.uk81.my.id", custom_domain = true },
+  { pattern = "api24-normal-alisg.tiktokv.com.uk81.my.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.uk81.my.id", custom_domain = true },
+  { pattern = "help.viu.com.uk81.my.id", custom_domain = true },
+  { pattern = "grabacademyportal.grab.com.uk81.my.id", custom_domain = true },
+  { pattern = "api22-normal-c-alisg.tiktokv.com.uk81.my.id", custom_domain = true },
+  { pattern = "live.iflix.com.uk81.my.id", custom_domain = true },
+  { pattern = "store.linefriends.com.uk81.my.id", custom_domain = true },
+  { pattern = "cache.netflix.com.uk81.my.id", custom_domain = true },
+  { pattern = "customlinks.appsflyer.com.uk81.my.id", custom_domain = true }
+]
 
 [[kv_namespaces]]
 binding = "SIREN"
@@ -28,7 +37,7 @@ build = { command = "cargo install -q worker-build && worker-build --dev" }
 
 [vars]
 UUID = "bbff1096-1b2b-4953-89fc-380db3854af8"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/barudakbaong/irenmess/refs/heads/master/web/index.html"
-SUB_PAGE_URL = "https://raw.githubusercontent.com/barudakbaong/irenmess/refs/heads/master/web/sub.html"
-LINK_PAGE_URL = "https://raw.githubusercontent.com/barudakbaong/irenmess/refs/heads/master/web/link.html"
-CONVERTER_PAGE_URL = "https://raw.githubusercontent.com/barudakbaong/irenmess/refs/heads/master/web/converter.html"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/barudakbaong/irenweb/refs/heads/main/web/index.html"
+SUB_PAGE_URL = "https://raw.githubusercontent.com/barudakbaong/irenweb/refs/heads/main/web/sub.html"
+LINK_PAGE_URL = "https://raw.githubusercontent.com/barudakbaong/irenweb/refs/heads/main/web/link.html"
+CONVERTER_PAGE_URL = "https://raw.githubusercontent.com/barudakbaong/irenweb/refs/heads/main/web/converter.html"
