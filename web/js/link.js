@@ -11,7 +11,7 @@ let filteredProxyList = []
 let selectedProxy = null
 const defaultProxyUrl = "https://raw.githubusercontent.com/AFRcloud/ProxyList/refs/heads/main/ProxyList.txt"
 
-const serverDomains = ["siren.uk81.my.id"]
+const serverDomains = ["uk81.my.id"]
 let selectedServerDomain = serverDomains[0] // Default to first domain
 const defaultUUID = "bbff1096-1b2b-4953-89fc-380db3854af8"
 const itemsPerPage = 10
@@ -22,11 +22,7 @@ const pathTemplate = "/uk81/{ip}-{port}"
 // Array of bug options for easy management
 const bugOptions = [
   { value: "", label: "Default" },
-  { value: "support.zoom.us", label: "ZOOM" },
-  { value: "investor.fb.com", label: "fb" },
-  { value: "zoomgov.com", label: "ZOOMGOV" },
-  { value: "ava.game.naver.com", label: "WLG" },
-  { value: "graph.instagram.com", label: "IG" }
+  { value: "support.zoom.us", label: "ZOOM" }
 ];
 
 
