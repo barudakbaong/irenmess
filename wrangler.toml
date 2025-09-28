@@ -7,22 +7,22 @@ workers_dev = true
 
 routes = [
 
-  { pattern = "uk81.my.id", custom_domain = true },
-  { pattern = "support.zoom.us.uk81.my.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.uk81.my.id", custom_domain = true },
-  { pattern = "graph.instagram.com.uk81.my.id", custom_domain = true },
-  { pattern = "df.game.naver.com.uk81.my.id", custom_domain = true },
-  { pattern = "quiz.int.vidio.com.uk81.my.id", custom_domain = true },
-  { pattern = "zoomgov.com.uk81.my.id", custom_domain = true },
-  { pattern = "api24-normal-alisg.tiktokv.com.uk81.my.id", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.uk81.my.id", custom_domain = true },
-  { pattern = "help.viu.com.uk81.my.id", custom_domain = true },
-  { pattern = "grabacademyportal.grab.com.uk81.my.id", custom_domain = true },
-  { pattern = "api22-normal-c-alisg.tiktokv.com.uk81.my.id", custom_domain = true },
-  { pattern = "live.iflix.com.uk81.my.id", custom_domain = true },
-  { pattern = "store.linefriends.com.uk81.my.id", custom_domain = true },
-  { pattern = "cache.netflix.com.uk81.my.id", custom_domain = true },
-  { pattern = "customlinks.appsflyer.com.uk81.my.id", custom_domain = true }
+  { pattern = "siren.uk81.my.id", custom_domain = true },
+  { pattern = "support.zoom.us.siren.uk81.my.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.siren.uk81.my.id", custom_domain = true },
+  { pattern = "graph.instagram.com.siren.uk81.my.id", custom_domain = true },
+  { pattern = "df.game.naver.com.siren.uk81.my.id", custom_domain = true },
+  { pattern = "quiz.int.vidio.com.siren.uk81.my.id", custom_domain = true },
+  { pattern = "zoomgov.com.siren.uk81.my.id", custom_domain = true },
+  { pattern = "api24-normal-alisg.tiktokv.com.siren.uk81.my.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.siren.uk81.my.id", custom_domain = true },
+  { pattern = "help.viu.com.siren.uk81.my.id", custom_domain = true },
+  { pattern = "grabacademyportal.grab.com.siren.uk81.my.id", custom_domain = true },
+  { pattern = "api22-normal-c-alisg.tiktokv.com.siren.uk81.my.id", custom_domain = true },
+  { pattern = "live.iflix.com.siren.uk81.my.id", custom_domain = true },
+  { pattern = "store.linefriends.com.siren.uk81.my.id", custom_domain = true },
+  { pattern = "cache.netflix.com.siren.uk81.my.id", custom_domain = true },
+  { pattern = "customlinks.appsflyer.com.siren.uk81.my.id", custom_domain = true }
 ]
 
 [[kv_namespaces]]
